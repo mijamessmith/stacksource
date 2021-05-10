@@ -15,9 +15,11 @@ npm v6.14.11
 ```npm install```
 ###### To start the API server, run
 ```npm start```
-###
 
 ### TESTING
+###### To run jest tests for the helper functions, run
+```npm test```
+
 ###### Import the provided Postman JSON file for prebaked test routes
 ###### Otherwise, direct your requests to http://localhost:3000 for the following routes
 ```
