@@ -19,3 +19,8 @@ npm v6.14.11
 
 ### TESTING
 ###### Import the provided Postman JSON file for prebaked test routes
+###### Otherwise, direct your requests to http://localhost:3000 for the following routes
+```
+/insert?zip=   for post, delete, get (has zip)
+/display       for getting all
+```
