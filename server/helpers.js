@@ -1,5 +1,5 @@
 const validateZip = (zip) =>  {
-  return zip.length === 5;
+  return zip.length === 5 && !isNaN(Number(zip));
 }
 
 const formatZips = (zips) => {
@@ -39,3 +39,5 @@ const codesToString = (codes) => {
 
 module.exports.validateZip = validateZip;
 module.exports.formatZips = formatZips;
+module.exports.codesToString = codesToString;
+module.exports.sortCodesInAscendingOrder = sortCodesInAscendingOrder;
