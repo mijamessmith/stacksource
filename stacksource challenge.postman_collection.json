@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "d9ab1ff1-8cb9-4a54-9322-23d3f6b2151d",
+		"name": "stacksource challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "postZip",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/insert?zip=99999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"insert"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "99999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/display",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"display"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteZip",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/insert?zip=10243",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"insert"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "10243"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hasZip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/insert?zip=10242",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"insert"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "10242"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

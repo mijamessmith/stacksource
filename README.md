@@ -11,6 +11,11 @@ npm v6.14.11
 ```
 
 ### INSTALLATION AND START GUIDE
-###### In your terminal inside the root dir of this project, run 'npm install'
-###### To start the API server, run 'npm start'
+###### In your terminal inside the root dir of this project, run
+```npm install```
+###### To start the API server, run
+```npm start```
 ###
+
+### TESTING
+###### Import the provided Postman JSON file for prebaked test routes
